@@ -1,0 +1,21 @@
+# окружение poetry (venv в проекте)
+.venv/
+
+# кэш python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# большие фикстуры и выгрузки (в репозиторий не кладём; в тестах используется *_small.sdmx.xml)
+fixtures/*_data.sdmx.xml
+fixtures/*_full.csv
+fixtures/*_sample.csv
+fedstat_fixtures.zip
+
+# результаты выгрузок / примеры
+cena.csv
+*.xlsx
+
+# служебное
+.DS_Store
+.ipynb_checkpoints/

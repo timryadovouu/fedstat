@@ -1,0 +1,54 @@
+{
+  "indicator_id": "31452",
+  "get_status": 200,
+  "get_seconds": 0.74,
+  "formats": {
+    "sdmx": {
+      "status": 200,
+      "content_type": "text/xml",
+      "bytes": 39718519,
+      "seconds": 3.92,
+      "saved": "fixtures/31452_data.sdmx.xml"
+    }
+  },
+  "fields": {
+    "Показатель": {
+      "field_id": "0",
+      "object": "filterObjectIds",
+      "n_values": 1
+    },
+    "Год": {
+      "field_id": "3",
+      "object": "columnObjectIds",
+      "n_values": 27
+    },
+    "Классификатор объектов административно-территориального деления (ОКАТО)": {
+      "field_id": "57831",
+      "object": "lineObjectIds",
+      "n_values": 114
+    },
+    "Единица измерения": {
+      "field_id": "30611",
+      "object": "lineObjectIds",
+      "n_values": 1
+    },
+    "Период": {
+      "field_id": "33560",
+      "object": "columnObjectIds",
+      "n_values": 4
+    },
+    "Рынок жилья": {
+      "field_id": "63148",
+      "object": "lineObjectIds",
+      "n_values": 2
+    },
+    "Типы квартир": {
+      "field_id": "58849",
+      "object": "lineObjectIds",
+      "n_values": 5
+    }
+  },
+  "csrf_found": true,
+  "applied_filters": {},
+  "selected_rows": 154
+}

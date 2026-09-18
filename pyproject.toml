@@ -1,0 +1,30 @@
+[project]
+name = "fedstat-capture"
+version = "0.1.0"
+description = "Снятие фикстур с fedstat.ru (ЕМИСС) для разработки Python-библиотеки"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "requests>=2.31",
+    "lxml>=5.0",
+    "pandas (>=3.0.6,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.poetry.group.notebook.dependencies]
+jupyterlab = "*"
+ipykernel = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.1.1"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
