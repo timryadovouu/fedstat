@@ -59,6 +59,9 @@ def load(indicator_id, filters=None, *, client=None, retry_max_times=3,
         except DownloadError as exc:
             last_exc = exc  # CSRF одноразовый -> следующая попытка перезаберёт токен
             if attempt < attempts - 1:
+                # чистая сессия (новые cookies + новый UA) — аналог Cmd+Shift+R
+                if hasattr(cl, "reset_session"):
+                    cl.reset_session()
                 time.sleep(retry_pause * (2 ** attempt))  # 3, 6, 12 ... сек
             continue
         return sdmx_to_dataframe(
