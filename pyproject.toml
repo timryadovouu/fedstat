@@ -1,6 +1,6 @@
 [project]
 name = "fedstat"
-version = "0.1.0"
+version = "0.1.1"
 description = "Неофициальный Python-клиент к fedstat.ru (ЕМИСС): показатели с фильтрами в pandas.DataFrame"
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
@@ -17,10 +17,10 @@ classifiers = [
     "Natural Language :: Russian",
 ]
 dependencies = [
-    "requests>=2.31",
-    "lxml>=5.0",
-    "pandas (>=3.0.6,<4.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)",
+    "requests>=2.25",
+    "lxml>=4.6",
+    "pandas>=1.5",
+    "openpyxl>=3.0",
 ]
 
 [project.urls]
