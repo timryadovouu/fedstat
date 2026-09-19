@@ -54,8 +54,9 @@ def load(indicator_id, filters=None, *, client=None, retry_max_times=3,
             )
         selected = select_rows(data_ids, filters)
         body = build_download_body(data_ids, selected)
+        referer = f"{getattr(cl, 'base_url', '')}/indicator/{indicator_id}"
         try:
-            raw = cl.download(body, data_format="sdmx")
+            raw = cl.download(body, data_format="sdmx", referer=referer)
         except DownloadError as exc:
             last_exc = exc  # CSRF одноразовый -> следующая попытка перезаберёт токен
             if attempt < attempts - 1:

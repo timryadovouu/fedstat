@@ -22,7 +22,7 @@ class FakeClient:
     def get_indicator_html(self, indicator_id):
         return self.html
 
-    def download(self, body, data_format="sdmx"):
+    def download(self, body, data_format="sdmx", **kwargs):
         self.last_body = body
         return self.sdmx
 
@@ -63,7 +63,7 @@ def test_load_retries_after_transient_503(fake_client, monkeypatch):
     calls = {"n": 0}
     ok_download = fake_client.download
 
-    def flaky_download(body, data_format="sdmx"):
+    def flaky_download(body, data_format="sdmx", **kwargs):
         calls["n"] += 1
         if calls["n"] == 1:
             raise DownloadError("fedstat вернул 503 (Service Unavailable)")

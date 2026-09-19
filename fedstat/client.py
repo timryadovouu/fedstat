@@ -123,17 +123,22 @@ class FedstatClient:
             f"Не удалось получить страницу индикатора {indicator_id}: {last_exc}"
         )
 
-    def download(self, body, data_format="sdmx"):
+    def download(self, body, data_format="sdmx", referer=None):
         """POST на downloadData.do. Возвращает сырые байты (SDMX/Excel).
 
         Без ретраев: CSRF-токен одноразовый. Повтор — на уровне api.load
-        (перезабор токена + новая попытка).
+        (перезабор токена + новая попытка). referer — URL страницы индикатора,
+        с которой «пришёл» запрос (fedstat может проверять Referer).
         """
         url = f"{self.base_url}/indicator/downloadData.do?format={data_format}"
         headers = {
             "Content-Type": "application/x-www-form-urlencoded",
-            "Referer": f"{self.base_url}/indicator/",
+            "Referer": referer or f"{self.base_url}/indicator/",
             "Origin": self.base_url,
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-User": "?1",
         }
         try:
             resp = self.session.post(
