@@ -16,16 +16,8 @@
 
 ## Установка
 
-**Для использования** (после публикации на PyPI — планируется):
-
 ```bash
 pip install fedstat
-```
-
-**Пока проект на GitHub** — ставится напрямую из репозитория, без ручного клонирования:
-
-```bash
-pip install git+ssh://git@github.com/timryadovouu/fedstat.git
 ```
 
 **Для разработки** (клон + окружение poetry):
