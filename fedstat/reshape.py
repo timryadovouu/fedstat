@@ -1,9 +1,18 @@
 """Преобразование нормализованного ("длинного") DataFrame в "широкий" (pivot)."""
 
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, Optional, Union
+
 from .errors import FedstatError
 
+if TYPE_CHECKING:
+    import pandas as pd
 
-def to_wide(df, columns="PERIOD", values="VALUE", index=None, aggfunc="mean"):
+
+def to_wide(df: "pd.DataFrame", columns: str = "PERIOD", values: str = "VALUE",
+            index: Optional[Union[str, list[str]]] = None,
+            aggfunc: str = "mean") -> "pd.DataFrame":
     """Разносит одно измерение по столбцам (обёртка над pandas.pivot_table).
 
     df:      результат fedstat.load(...) (длинный вид).

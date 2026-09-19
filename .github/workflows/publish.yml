@@ -1,0 +1,31 @@
+name: publish
+
+# Публикация на PyPI при пуше тега вида v1.2.3.
+# Использует Trusted Publishing (OIDC) — токены PyPI не нужны.
+# Однократная настройка на стороне PyPI описана в README (раздел «Публикация»).
+
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write   # нужно для OIDC (Trusted Publishing)
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Build
+        run: poetry build
+
+      - name: Publish to PyPI (Trusted Publishing)
+        uses: pypa/gh-action-pypi-publish@release/v1

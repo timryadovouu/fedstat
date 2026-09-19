@@ -91,6 +91,25 @@ wide = fedstat.to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
 | `fedstat.sdmx` | SDMX -> нормализованный `DataFrame` |
 | `fedstat.api` | высокоуровневые `load` / `list_filters` / `filter_template` |
 
+## Публикация (для мейнтейнера)
+
+Новые версии публикуются на PyPI **автоматически по git-тегу** через
+GitHub Actions + Trusted Publishing (OIDC, без токенов).
+
+Однократная настройка на PyPI (https://pypi.org/manage/project/fedstat/settings/publishing/):
+добавить trusted publisher — owner `timryadovouu`, репозиторий `fedstat`,
+workflow `publish.yml`, environment `pypi`.
+
+Выпуск версии:
+
+```bash
+poetry version patch          # 0.1.2 -> 0.1.3 (или minor / major)
+# обновить CHANGELOG.md, закоммитить
+git tag v0.1.3 && git push origin main v0.1.3
+```
+
+Пуш тега запускает `publish.yml`, который собирает пакет и публикует на PyPI.
+
 ## Разработка и тесты
 
 Тесты гоняются офлайн на сохранённых фикстурах (`fixtures/`), сеть не нужна:
