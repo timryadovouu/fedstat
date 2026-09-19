@@ -67,6 +67,8 @@ def load(indicator_id, filters=None, *, client=None, retry_max_times=3,
 
     raise DownloadError(
         f"Не удалось скачать данные индикатора {indicator_id} за {attempts} попыток. "
-        f"Последняя ошибка: {last_exc}. Часто это временная перегрузка fedstat (503) — "
-        "попробуйте позже или увеличьте retry_max_times."
+        f"Последняя ошибка: {last_exc} "
+        "Обычно 503/302 — временная нестабильность fedstat; повторите позже "
+        "или увеличьте retry_max_times/retry_pause. Если ошибка повторяется стабильно — "
+        "проверьте значения фильтров."
     )
