@@ -16,6 +16,11 @@ fedstat_fixtures.zip
 cena.csv
 *.xlsx
 
+# артефакты сборки
+dist/
+build/
+*.egg-info/
+
 # служебное
 .DS_Store
 .ipynb_checkpoints/
