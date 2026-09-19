@@ -59,12 +59,15 @@ class FedstatClient:
     """
 
     def __init__(self, base_url=BASE_URL, timeout=180.0, retry_max_times=3,
-                 verify=True, session=None, user_agent=None, rotate_user_agent=True):
+                 verify=True, session=None, user_agent=None, rotate_user_agent=True,
+                 warm_up=True):
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         self.retry_max_times = retry_max_times
         self.verify = verify
         self.rotate_user_agent = rotate_user_agent
+        self.warm_up = warm_up
+        self._warmed = False
         self._user_agent = user_agent or random.choice(USER_AGENTS)
         self.session = session or requests.Session()
         self.session.headers.update(_build_headers(self._user_agent))
@@ -75,10 +78,26 @@ class FedstatClient:
             self._user_agent = random.choice(USER_AGENTS)
         self.session = requests.Session()
         self.session.headers.update(_build_headers(self._user_agent))
+        self._warmed = False
         return self
+
+    def _warm_up(self):
+        """Зайти на главную, чтобы получить стартовые cookies сессии (как браузер).
+
+        Best-effort: ошибки прогрева не критичны и игнорируются.
+        """
+        if self._warmed or not self.warm_up:
+            return
+        try:
+            self.session.get(self.base_url + "/", timeout=self.timeout,
+                             verify=self.verify)
+        except requests.RequestException:
+            pass
+        self._warmed = True
 
     def get_indicator_html(self, indicator_id):
         """GET страницы индикатора с ретраями и растущей паузой. Возвращает text."""
+        self._warm_up()
         url = f"{self.base_url}/indicator/{indicator_id}"
         last_exc = None
         for attempt in range(self.retry_max_times):
