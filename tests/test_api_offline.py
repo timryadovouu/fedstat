@@ -53,3 +53,36 @@ def test_list_filters_and_template(fake_client):
     assert "filter_field_title" in frame.columns
     tpl = fedstat.filter_template(INDICATOR, client=fake_client)
     assert "Год" in tpl and set(tpl.values()) == {"*"}
+
+
+def test_load_retries_after_transient_503(fake_client, monkeypatch):
+    from fedstat.errors import DownloadError
+
+    monkeypatch.setattr("fedstat.api.time.sleep", lambda *_: None)  # без реальных пауз
+
+    calls = {"n": 0}
+    ok_download = fake_client.download
+
+    def flaky_download(body, data_format="sdmx"):
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise DownloadError("fedstat вернул 503 (Service Unavailable)")
+        return ok_download(body, data_format=data_format)
+
+    fake_client.download = flaky_download
+    df = fedstat.load(INDICATOR, client=fake_client)
+    assert calls["n"] == 2          # первая попытка упала, вторая — успех
+    assert df.shape == (827, 7)
+
+
+def test_load_gives_up_after_max_retries(fake_client, monkeypatch):
+    import pytest as _pytest
+
+    from fedstat.errors import DownloadError
+
+    monkeypatch.setattr("fedstat.api.time.sleep", lambda *_: None)
+    fake_client.download = lambda *a, **k: (_ for _ in ()).throw(
+        DownloadError("503")
+    )
+    with _pytest.raises(DownloadError):
+        fedstat.load(INDICATOR, client=fake_client, retry_max_times=2)
