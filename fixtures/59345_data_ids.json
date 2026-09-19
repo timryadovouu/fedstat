@@ -1,0 +1,919 @@
+[
+  {
+    "filter_field_id": "0",
+    "filter_field_title": "Показатель",
+    "filter_value_id": "59345",
+    "filter_value_title": "Отдельные показатели по кредитам в рублях,  предоставленным  кредитными организациями физическим лицам-резидентам",
+    "filter_field_object_ids": "filterObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2018",
+    "filter_value_title": "2018",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2019",
+    "filter_value_title": "2019",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2020",
+    "filter_value_title": "2020",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2021",
+    "filter_value_title": "2021",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2022",
+    "filter_value_title": "2022",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2023",
+    "filter_value_title": "2023",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2024",
+    "filter_value_title": "2024",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2025",
+    "filter_value_title": "2025",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2026",
+    "filter_value_title": "2026",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "30611",
+    "filter_field_title": "Единица измерения",
+    "filter_value_id": "950224",
+    "filter_value_title": "месяц",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "30611",
+    "filter_field_title": "Единица измерения",
+    "filter_value_id": "950475",
+    "filter_value_title": "единица",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "30611",
+    "filter_field_title": "Единица измерения",
+    "filter_value_id": "950353",
+    "filter_value_title": "миллион рублей",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "30611",
+    "filter_field_title": "Единица измерения",
+    "filter_value_id": "950473",
+    "filter_value_title": "процент",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540283",
+    "filter_value_title": "январь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540282",
+    "filter_value_title": "февраль",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540236",
+    "filter_value_title": "март",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540229",
+    "filter_value_title": "апрель",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540235",
+    "filter_value_title": "май",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540234",
+    "filter_value_title": "июнь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540233",
+    "filter_value_title": "июль",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540228",
+    "filter_value_title": "август",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540276",
+    "filter_value_title": "сентябрь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540273",
+    "filter_value_title": "октябрь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540272",
+    "filter_value_title": "ноябрь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540230",
+    "filter_value_title": "декабрь",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653785",
+    "filter_value_title": "Российская Федерация",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653787",
+    "filter_value_title": "Центральный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653795",
+    "filter_value_title": "Белгородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653796",
+    "filter_value_title": "Брянская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653797",
+    "filter_value_title": "Владимирская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653798",
+    "filter_value_title": "Воронежская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653799",
+    "filter_value_title": "Ивановская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653800",
+    "filter_value_title": "Калужская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653801",
+    "filter_value_title": "Костромская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653814",
+    "filter_value_title": "Курская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653802",
+    "filter_value_title": "Липецкая область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653803",
+    "filter_value_title": "Московская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653805",
+    "filter_value_title": "Орловская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653806",
+    "filter_value_title": "Рязанская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653807",
+    "filter_value_title": "Смоленская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653808",
+    "filter_value_title": "Тамбовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653809",
+    "filter_value_title": "Тверская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653810",
+    "filter_value_title": "Тульская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653811",
+    "filter_value_title": "Ярославская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653812",
+    "filter_value_title": "г. Москва",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653788",
+    "filter_value_title": "Северо-Западный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653815",
+    "filter_value_title": "Республика Карелия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653816",
+    "filter_value_title": "Республика Коми",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653817",
+    "filter_value_title": "Архангельская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653818",
+    "filter_value_title": "в том числе Ненецкий автономный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653819",
+    "filter_value_title": "Архангельская область без данных по Ненецкому автономному округу",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653820",
+    "filter_value_title": "Вологодская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653821",
+    "filter_value_title": "Калининградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653822",
+    "filter_value_title": "Ленинградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653823",
+    "filter_value_title": "Мурманская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653824",
+    "filter_value_title": "Новгородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653825",
+    "filter_value_title": "Псковская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653826",
+    "filter_value_title": "г. Санкт-Петербург",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653789",
+    "filter_value_title": "Южный федеральный округ (до июля 2016г. Республика Крым и г.Севастополь входили в состав Крымского Федерального округа)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653827",
+    "filter_value_title": "Республика Адыгея (Адыгея)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653828",
+    "filter_value_title": "Республика Калмыкия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1654661",
+    "filter_value_title": "Республика Крым",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653829",
+    "filter_value_title": "Краснодарский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653830",
+    "filter_value_title": "Астраханская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653831",
+    "filter_value_title": "Волгоградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653832",
+    "filter_value_title": "Ростовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1654662",
+    "filter_value_title": "г. Севастополь",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653790",
+    "filter_value_title": "Северо-Кавказский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653833",
+    "filter_value_title": "Республика Дагестан",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653834",
+    "filter_value_title": "Республика Ингушетия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653835",
+    "filter_value_title": "Кабардино-Балкарская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653836",
+    "filter_value_title": "Карачаево-Черкесская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653837",
+    "filter_value_title": "Республика Северная Осетия - Алания",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653838",
+    "filter_value_title": "Чеченская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653839",
+    "filter_value_title": "Ставропольский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653791",
+    "filter_value_title": "Приволжский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653840",
+    "filter_value_title": "Республика Башкортостан",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653841",
+    "filter_value_title": "Республика Марий Эл",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653842",
+    "filter_value_title": "Республика Мордовия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653843",
+    "filter_value_title": "Республика Татарстан (Татарстан)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653844",
+    "filter_value_title": "Удмуртская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653845",
+    "filter_value_title": "Чувашская Республика - Чувашия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653846",
+    "filter_value_title": "Пермский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653847",
+    "filter_value_title": "Кировская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653848",
+    "filter_value_title": "Нижегородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653849",
+    "filter_value_title": "Оренбургская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653850",
+    "filter_value_title": "Пензенская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653851",
+    "filter_value_title": "Самарская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653852",
+    "filter_value_title": "Саратовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653853",
+    "filter_value_title": "Ульяновская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653792",
+    "filter_value_title": "Уральский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653854",
+    "filter_value_title": "Курганская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653855",
+    "filter_value_title": "Свердловская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653856",
+    "filter_value_title": "Тюменская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653857",
+    "filter_value_title": "в том числе Ханты-Мансийский автономный округ - Югра",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653858",
+    "filter_value_title": "в том числе Ямало-Ненецкий автономный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653859",
+    "filter_value_title": "Тюменская область без данных по Ханты-Мансийскому автономному округу - Югре и Ямало-Ненецкому автономному округу",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653860",
+    "filter_value_title": "Челябинская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653793",
+    "filter_value_title": "Сибирский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653861",
+    "filter_value_title": "Республика Алтай",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653863",
+    "filter_value_title": "Республика Тыва",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653864",
+    "filter_value_title": "Республика Хакасия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653865",
+    "filter_value_title": "Алтайский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653867",
+    "filter_value_title": "Красноярский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653868",
+    "filter_value_title": "Иркутская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653881",
+    "filter_value_title": "Кемеровская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653869",
+    "filter_value_title": "Новосибирская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653870",
+    "filter_value_title": "Омская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653871",
+    "filter_value_title": "Томская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653794",
+    "filter_value_title": "Дальневосточный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1795376",
+    "filter_value_title": "Республика Бурятия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653872",
+    "filter_value_title": "Республика Саха (Якутия)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1795377",
+    "filter_value_title": "Забайкальский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653873",
+    "filter_value_title": "Камчатский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653874",
+    "filter_value_title": "Приморский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653875",
+    "filter_value_title": "Хабаровский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653876",
+    "filter_value_title": "Амурская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653877",
+    "filter_value_title": "Магаданская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653878",
+    "filter_value_title": "Сахалинская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653879",
+    "filter_value_title": "Еврейская автономная область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "44521",
+    "filter_field_title": "Регионы Российской Федерации (иерархический)",
+    "filter_value_id": "1653880",
+    "filter_value_title": "Чукотский автономный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "38404",
+    "filter_field_title": "Характеристики жилищных/ипотечных кредитов",
+    "filter_value_id": "1575196",
+    "filter_value_title": "Количество предоставленных кредитов",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "38404",
+    "filter_field_title": "Характеристики жилищных/ипотечных кредитов",
+    "filter_value_id": "1575197",
+    "filter_value_title": "Объем предоставленных кредитов",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "38404",
+    "filter_field_title": "Характеристики жилищных/ипотечных кредитов",
+    "filter_value_id": "1704548",
+    "filter_value_title": "Средневзвешенный срок кредитования по кредитам, выданным в течение месяца",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "38404",
+    "filter_field_title": "Характеристики жилищных/ипотечных кредитов",
+    "filter_value_id": "1704550",
+    "filter_value_title": "Средневзвешенная ставка по кредитам, выданным в течение месяца",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "38404",
+    "filter_field_title": "Характеристики жилищных/ипотечных кредитов",
+    "filter_value_id": "1629550",
+    "filter_value_title": "Всего",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "39625",
+    "filter_field_title": "Характеристики кредита",
+    "filter_value_id": "1592938",
+    "filter_value_title": "Объем предоставленных кредитов",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "39625",
+    "filter_field_title": "Характеристики кредита",
+    "filter_value_id": "1629535",
+    "filter_value_title": "Жилищные кредиты",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "39625",
+    "filter_field_title": "Характеристики кредита",
+    "filter_value_id": "1629536",
+    "filter_value_title": "Ипотечные жилищные кредиты",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "39625",
+    "filter_field_title": "Характеристики кредита",
+    "filter_value_id": "1687986",
+    "filter_value_title": "из них: ипотечные жилищные кредиты, взятые под залог прав требования по договорам участия в долевом строительстве",
+    "filter_field_object_ids": "lineObjectIds"
+  }
+]

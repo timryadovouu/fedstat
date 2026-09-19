@@ -24,3 +24,4 @@ build/
 # служебное
 .DS_Store
 .ipynb_checkpoints/
+fixtures/*_meta.json

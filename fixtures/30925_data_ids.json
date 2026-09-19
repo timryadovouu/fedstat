@@ -1,0 +1,1115 @@
+[
+  {
+    "filter_field_id": "0",
+    "filter_field_title": "Показатель",
+    "filter_value_id": "30925",
+    "filter_value_title": "Индексы цен на рынке жилья",
+    "filter_field_object_ids": "filterObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2000",
+    "filter_value_title": "2000",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2001",
+    "filter_value_title": "2001",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2002",
+    "filter_value_title": "2002",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2003",
+    "filter_value_title": "2003",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2004",
+    "filter_value_title": "2004",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2005",
+    "filter_value_title": "2005",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2006",
+    "filter_value_title": "2006",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2007",
+    "filter_value_title": "2007",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2008",
+    "filter_value_title": "2008",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2009",
+    "filter_value_title": "2009",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2010",
+    "filter_value_title": "2010",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2011",
+    "filter_value_title": "2011",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2012",
+    "filter_value_title": "2012",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2013",
+    "filter_value_title": "2013",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2014",
+    "filter_value_title": "2014",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2015",
+    "filter_value_title": "2015",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2016",
+    "filter_value_title": "2016",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2017",
+    "filter_value_title": "2017",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2018",
+    "filter_value_title": "2018",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2019",
+    "filter_value_title": "2019",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2020",
+    "filter_value_title": "2020",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2021",
+    "filter_value_title": "2021",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2022",
+    "filter_value_title": "2022",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2023",
+    "filter_value_title": "2023",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2024",
+    "filter_value_title": "2024",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2025",
+    "filter_value_title": "2025",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "3",
+    "filter_field_title": "Год",
+    "filter_value_id": "2026",
+    "filter_value_title": "2026",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "57937",
+    "filter_field_title": "Виды показателя",
+    "filter_value_id": "1698421",
+    "filter_value_title": "К соответствующему кварталу предыдущего года",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57937",
+    "filter_field_title": "Виды показателя",
+    "filter_value_id": "1743494",
+    "filter_value_title": "Квартал к отчетному году",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57937",
+    "filter_field_title": "Виды показателя",
+    "filter_value_id": "1752265",
+    "filter_value_title": "На конец квартала к концу IV квартала предыдущего года",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57937",
+    "filter_field_title": "Виды показателя",
+    "filter_value_id": "1752257",
+    "filter_value_title": "На конец квартала к концу предыдущего квартала",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57937",
+    "filter_field_title": "Виды показателя",
+    "filter_value_id": "1704143",
+    "filter_value_title": "Период с начала года к соответствующему периоду предыдущего года",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688487",
+    "filter_value_title": "Российская Федерация",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1849012",
+    "filter_value_title": "Российская Федерация без учета новых субъектов (с 01.01.2023)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688488",
+    "filter_value_title": "Центральный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688489",
+    "filter_value_title": "Белгородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688490",
+    "filter_value_title": "Брянская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688491",
+    "filter_value_title": "Владимирская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688492",
+    "filter_value_title": "Воронежская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688493",
+    "filter_value_title": "Ивановская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688494",
+    "filter_value_title": "Калужская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688495",
+    "filter_value_title": "Костромская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688496",
+    "filter_value_title": "Курская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688497",
+    "filter_value_title": "Липецкая область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688498",
+    "filter_value_title": "Московская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688499",
+    "filter_value_title": "Орловская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688500",
+    "filter_value_title": "Рязанская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688501",
+    "filter_value_title": "Смоленская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688502",
+    "filter_value_title": "Тамбовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688503",
+    "filter_value_title": "Тверская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688504",
+    "filter_value_title": "Тульская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688505",
+    "filter_value_title": "Ярославская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688506",
+    "filter_value_title": "Город Москва столица Российской Федерации город федерального значения",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688507",
+    "filter_value_title": "Северо-Западный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688508",
+    "filter_value_title": "Республика Карелия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688509",
+    "filter_value_title": "Республика Коми",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688510",
+    "filter_value_title": "Архангельская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688511",
+    "filter_value_title": "Ненецкий автономный округ (Архангельская область)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1692939",
+    "filter_value_title": "Архангельская область (кроме Ненецкого автономного округа)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688513",
+    "filter_value_title": "Вологодская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688514",
+    "filter_value_title": "Калининградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688515",
+    "filter_value_title": "Ленинградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688516",
+    "filter_value_title": "Мурманская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688517",
+    "filter_value_title": "Новгородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688518",
+    "filter_value_title": "Псковская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688519",
+    "filter_value_title": "Город Санкт-Петербург город федерального значения",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688520",
+    "filter_value_title": "Южный федеральный округ (по 2009 год)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688521",
+    "filter_value_title": "Южный федеральный округ (до 29.07.2016)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1692937",
+    "filter_value_title": "Южный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688522",
+    "filter_value_title": "Республика Адыгея (Адыгея)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688523",
+    "filter_value_title": "Республика Калмыкия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1692938",
+    "filter_value_title": "Республика Крым",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688524",
+    "filter_value_title": "Краснодарский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688525",
+    "filter_value_title": "Астраханская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688526",
+    "filter_value_title": "Волгоградская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688527",
+    "filter_value_title": "Ростовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1695534",
+    "filter_value_title": "Город федерального значения Севастополь",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688528",
+    "filter_value_title": "Северо-Кавказский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688529",
+    "filter_value_title": "Республика Дагестан",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688530",
+    "filter_value_title": "Республика Ингушетия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688531",
+    "filter_value_title": "Кабардино-Балкарская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688532",
+    "filter_value_title": "Карачаево-Черкесская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688533",
+    "filter_value_title": "Республика Северная Осетия-Алания",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688534",
+    "filter_value_title": "Чеченская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688535",
+    "filter_value_title": "Ставропольский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688536",
+    "filter_value_title": "Приволжский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688537",
+    "filter_value_title": "Республика Башкортостан",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688538",
+    "filter_value_title": "Республика Марий Эл",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688539",
+    "filter_value_title": "Республика Мордовия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688540",
+    "filter_value_title": "Республика Татарстан (Татарстан)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688541",
+    "filter_value_title": "Удмуртская Республика",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688542",
+    "filter_value_title": "Чувашская Республика - Чувашия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688543",
+    "filter_value_title": "Пермский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688545",
+    "filter_value_title": "Кировская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688546",
+    "filter_value_title": "Нижегородская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688547",
+    "filter_value_title": "Оренбургская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688548",
+    "filter_value_title": "Пензенская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688549",
+    "filter_value_title": "Самарская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688550",
+    "filter_value_title": "Саратовская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688551",
+    "filter_value_title": "Ульяновская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688552",
+    "filter_value_title": "Уральский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688553",
+    "filter_value_title": "Курганская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688554",
+    "filter_value_title": "Свердловская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688555",
+    "filter_value_title": "Тюменская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688556",
+    "filter_value_title": "Ханты-Мансийский автономный округ - Югра (Тюменская область)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688557",
+    "filter_value_title": "Ямало-Ненецкий автономный округ (Тюменская область)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1692940",
+    "filter_value_title": "Тюменская область (кроме Ханты-Мансийского автономного округа-Югры и Ямало-Ненецкого автономного округа)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688559",
+    "filter_value_title": "Челябинская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688560",
+    "filter_value_title": "Сибирский федеральный округ (до 03.11.2018)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1795276",
+    "filter_value_title": "Сибирский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688561",
+    "filter_value_title": "Республика Алтай",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688563",
+    "filter_value_title": "Республика Тыва",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688564",
+    "filter_value_title": "Республика Хакасия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688565",
+    "filter_value_title": "Алтайский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688568",
+    "filter_value_title": "Красноярский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688569",
+    "filter_value_title": "Таймырский (Долгано-Ненецкий) автономный округ (Красноярский край)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688571",
+    "filter_value_title": "Иркутская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688573",
+    "filter_value_title": "Кемеровская область - Кузбасс",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688574",
+    "filter_value_title": "Новосибирская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688575",
+    "filter_value_title": "Омская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688576",
+    "filter_value_title": "Томская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688577",
+    "filter_value_title": "Дальневосточный федеральный округ (до 03.11.2018)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1795277",
+    "filter_value_title": "Дальневосточный федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688562",
+    "filter_value_title": "Республика Бурятия",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688566",
+    "filter_value_title": "Забайкальский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688578",
+    "filter_value_title": "Республика Саха (Якутия)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688579",
+    "filter_value_title": "Камчатский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688581",
+    "filter_value_title": "Приморский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688582",
+    "filter_value_title": "Хабаровский край",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688583",
+    "filter_value_title": "Амурская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688584",
+    "filter_value_title": "Магаданская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688585",
+    "filter_value_title": "Сахалинская область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688586",
+    "filter_value_title": "Еврейская автономная область",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1688587",
+    "filter_value_title": "Чукотский автономный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1697988",
+    "filter_value_title": "Крымский федеральный округ",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709529",
+    "filter_value_title": "Северный экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709530",
+    "filter_value_title": "Северо-Западный экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709531",
+    "filter_value_title": "Центральный экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709532",
+    "filter_value_title": "Волго-Вятский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709533",
+    "filter_value_title": "Центрально-Черноземный экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709534",
+    "filter_value_title": "Поволжский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709535",
+    "filter_value_title": "Северо-Кавказский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709536",
+    "filter_value_title": "Уральский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709537",
+    "filter_value_title": "Западно-Сибирский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709538",
+    "filter_value_title": "Восточно-Сибирский экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "57831",
+    "filter_field_title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+    "filter_value_id": "1709539",
+    "filter_value_title": "Дальневосточный экономический район",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "30611",
+    "filter_field_title": "Единица измерения",
+    "filter_value_id": "950473",
+    "filter_value_title": "процент",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540222",
+    "filter_value_title": "I квартал",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540224",
+    "filter_value_title": "II квартал",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540226",
+    "filter_value_title": "III квартал",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "33560",
+    "filter_field_title": "Период",
+    "filter_value_id": "1540227",
+    "filter_value_title": "IV квартал",
+    "filter_field_object_ids": "columnObjectIds"
+  },
+  {
+    "filter_field_id": "63148",
+    "filter_field_title": "Рынок жилья",
+    "filter_value_id": "1855615",
+    "filter_value_title": "Вторичный рынок жилья",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "63148",
+    "filter_field_title": "Рынок жилья",
+    "filter_value_id": "1855614",
+    "filter_value_title": "Первичный рынок жилья",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "58849",
+    "filter_field_title": "Типы квартир",
+    "filter_value_id": "1752264",
+    "filter_value_title": "Все типы квартир",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "58849",
+    "filter_field_title": "Типы квартир",
+    "filter_value_id": "1752263",
+    "filter_value_title": "Низкого качества",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "58849",
+    "filter_field_title": "Типы квартир",
+    "filter_value_id": "1752262",
+    "filter_value_title": "Квартиры среднего качества (типовые)",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "58849",
+    "filter_field_title": "Типы квартир",
+    "filter_value_id": "1752261",
+    "filter_value_title": "Улучшенного качества",
+    "filter_field_object_ids": "lineObjectIds"
+  },
+  {
+    "filter_field_id": "58849",
+    "filter_field_title": "Типы квартир",
+    "filter_value_id": "1752260",
+    "filter_value_title": "Элитные квартиры",
+    "filter_field_object_ids": "lineObjectIds"
+  }
+]
