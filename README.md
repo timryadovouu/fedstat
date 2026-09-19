@@ -1,6 +1,9 @@
 # fedstat
 
 ![tests](https://github.com/timryadovouu/fedstat/actions/workflows/tests.yml/badge.svg)
+![PyPI](https://img.shields.io/pypi/v/fedstat)
+![Python](https://img.shields.io/pypi/pyversions/fedstat)
+![License](https://img.shields.io/pypi/l/fedstat)
 
 Неофициальный Python-клиент к [fedstat.ru](https://www.fedstat.ru) (ЕМИСС) —
 порт идей R-пакета [`fedstatAPIr`](https://github.com/DenchPokepon/fedstatAPIr).
