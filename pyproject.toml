@@ -1,7 +1,7 @@
 [project]
-name = "fedstat-capture"
+name = "fedstat"
 version = "0.1.0"
-description = "Снятие фикстур с fedstat.ru (ЕМИСС) для разработки Python-библиотеки"
+description = "Неофициальный Python-клиент к fedstat.ru (ЕМИСС)"
 requires-python = ">=3.11,<4.0"
 dependencies = [
     "requests>=2.31",
@@ -11,10 +11,9 @@ dependencies = [
 ]
 
 [tool.poetry]
-package-mode = false
+packages = [{ include = "fedstat" }]
 
 [tool.pytest.ini_options]
-pythonpath = ["."]
 testpaths = ["tests"]
 
 [tool.poetry.group.notebook.dependencies]

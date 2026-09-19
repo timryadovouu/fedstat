@@ -1,5 +1,7 @@
 # fedstat
 
+![tests](https://github.com/timryadovouu/fedstat/actions/workflows/tests.yml/badge.svg)
+
 Неофициальный Python-клиент к [fedstat.ru](https://www.fedstat.ru) (ЕМИСС) —
 порт идей R-пакета [`fedstatAPIr`](https://github.com/DenchPokepon/fedstatAPIr).
 Скачивает данные показателей с фильтрами и отдаёт нормализованный
