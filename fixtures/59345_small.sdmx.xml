@@ -1,0 +1,4883 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenericData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/generic" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/query" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/structure" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/utility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message SDMXMessage.xsd">
+<Header Id="singHead">
+	<ID>-1214661399</ID>
+	<Test>false</Test>
+	<Truncated>false</Truncated>
+	<Prepared>2026-09-19T05:58:21</Prepared>
+	<Extracted>2026-09-19T05:58:21</Extracted>
+	<Sender id="UIS">
+		<Name xml:lang="en">Official statistics</Name>
+		<Name xml:lang="ru">Государственная статистика</Name>
+	</Sender>
+	<DataSetAgency>48</DataSetAgency>
+	<DataSetID>03.48.38.51</DataSetID>
+</Header>
+<CodeLists>
+	<structure:CodeList id="00_003">
+		<structure:Name xml:lang="ru">Регионы Российской Федерации (иерархический)</structure:Name>
+		<structure:Code value="00">
+			<structure:Description xml:lang="ru">Российская Федерация</structure:Description>
+		</structure:Code>
+		<structure:Code value="030">
+			<structure:Description xml:lang="ru">Центральный федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="14">
+			<structure:Description xml:lang="ru">Белгородская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="15">
+			<structure:Description xml:lang="ru">Брянская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="17">
+			<structure:Description xml:lang="ru">Владимирская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="20">
+			<structure:Description xml:lang="ru">Воронежская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="24">
+			<structure:Description xml:lang="ru">Ивановская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="29">
+			<structure:Description xml:lang="ru">Калужская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="34">
+			<structure:Description xml:lang="ru">Костромская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="38">
+			<structure:Description xml:lang="ru">Курская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="42">
+			<structure:Description xml:lang="ru">Липецкая область</structure:Description>
+		</structure:Code>
+		<structure:Code value="46">
+			<structure:Description xml:lang="ru">Московская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="54">
+			<structure:Description xml:lang="ru">Орловская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="61">
+			<structure:Description xml:lang="ru">Рязанская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="66">
+			<structure:Description xml:lang="ru">Смоленская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="68">
+			<structure:Description xml:lang="ru">Тамбовская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="28">
+			<structure:Description xml:lang="ru">Тверская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="70">
+			<structure:Description xml:lang="ru">Тульская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="78">
+			<structure:Description xml:lang="ru">Ярославская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="45">
+			<structure:Description xml:lang="ru">г. Москва</structure:Description>
+		</structure:Code>
+		<structure:Code value="031">
+			<structure:Description xml:lang="ru">Северо-Западный федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="86">
+			<structure:Description xml:lang="ru">Республика Карелия</structure:Description>
+		</structure:Code>
+		<structure:Code value="87">
+			<structure:Description xml:lang="ru">Республика Коми</structure:Description>
+		</structure:Code>
+		<structure:Code value="11">
+			<structure:Description xml:lang="ru">Архангельская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="11100">
+			<structure:Description xml:lang="ru">в том числе Ненецкий автономный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="11999">
+			<structure:Description xml:lang="ru">Архангельская область без данных по Ненецкому автономному округу</structure:Description>
+		</structure:Code>
+		<structure:Code value="19">
+			<structure:Description xml:lang="ru">Вологодская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="27">
+			<structure:Description xml:lang="ru">Калининградская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="41">
+			<structure:Description xml:lang="ru">Ленинградская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="47">
+			<structure:Description xml:lang="ru">Мурманская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="49">
+			<structure:Description xml:lang="ru">Новгородская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="58">
+			<structure:Description xml:lang="ru">Псковская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="40">
+			<structure:Description xml:lang="ru">г. Санкт-Петербург</structure:Description>
+		</structure:Code>
+		<structure:Code value="037">
+			<structure:Description xml:lang="ru">Южный федеральный округ (до июля 2016г. Республика Крым и г.Севастополь входили в состав Крымского Федерального округа)</structure:Description>
+		</structure:Code>
+		<structure:Code value="79">
+			<structure:Description xml:lang="ru">Республика Адыгея (Адыгея)</structure:Description>
+		</structure:Code>
+		<structure:Code value="85">
+			<structure:Description xml:lang="ru">Республика Калмыкия</structure:Description>
+		</structure:Code>
+		<structure:Code value="35">
+			<structure:Description xml:lang="ru">Республика Крым</structure:Description>
+		</structure:Code>
+		<structure:Code value="03">
+			<structure:Description xml:lang="ru">Краснодарский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="12">
+			<structure:Description xml:lang="ru">Астраханская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="18">
+			<structure:Description xml:lang="ru">Волгоградская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="60">
+			<structure:Description xml:lang="ru">Ростовская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="67">
+			<structure:Description xml:lang="ru">г. Севастополь</structure:Description>
+		</structure:Code>
+		<structure:Code value="038">
+			<structure:Description xml:lang="ru">Северо-Кавказский федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="82">
+			<structure:Description xml:lang="ru">Республика Дагестан</structure:Description>
+		</structure:Code>
+		<structure:Code value="26">
+			<structure:Description xml:lang="ru">Республика Ингушетия</structure:Description>
+		</structure:Code>
+		<structure:Code value="83">
+			<structure:Description xml:lang="ru">Кабардино-Балкарская Республика</structure:Description>
+		</structure:Code>
+		<structure:Code value="91">
+			<structure:Description xml:lang="ru">Карачаево-Черкесская Республика</structure:Description>
+		</structure:Code>
+		<structure:Code value="90">
+			<structure:Description xml:lang="ru">Республика Северная Осетия - Алания</structure:Description>
+		</structure:Code>
+		<structure:Code value="96">
+			<structure:Description xml:lang="ru">Чеченская Республика</structure:Description>
+		</structure:Code>
+		<structure:Code value="07">
+			<structure:Description xml:lang="ru">Ставропольский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="033">
+			<structure:Description xml:lang="ru">Приволжский федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="80">
+			<structure:Description xml:lang="ru">Республика Башкортостан</structure:Description>
+		</structure:Code>
+		<structure:Code value="88">
+			<structure:Description xml:lang="ru">Республика Марий Эл</structure:Description>
+		</structure:Code>
+		<structure:Code value="89">
+			<structure:Description xml:lang="ru">Республика Мордовия</structure:Description>
+		</structure:Code>
+		<structure:Code value="92">
+			<structure:Description xml:lang="ru">Республика Татарстан (Татарстан)</structure:Description>
+		</structure:Code>
+		<structure:Code value="94">
+			<structure:Description xml:lang="ru">Удмуртская Республика</structure:Description>
+		</structure:Code>
+		<structure:Code value="97">
+			<structure:Description xml:lang="ru">Чувашская Республика - Чувашия</structure:Description>
+		</structure:Code>
+		<structure:Code value="57">
+			<structure:Description xml:lang="ru">Пермский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="33">
+			<structure:Description xml:lang="ru">Кировская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="22">
+			<structure:Description xml:lang="ru">Нижегородская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="53">
+			<structure:Description xml:lang="ru">Оренбургская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="56">
+			<structure:Description xml:lang="ru">Пензенская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="36">
+			<structure:Description xml:lang="ru">Самарская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="63">
+			<structure:Description xml:lang="ru">Саратовская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="73">
+			<structure:Description xml:lang="ru">Ульяновская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="034">
+			<structure:Description xml:lang="ru">Уральский федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="37">
+			<structure:Description xml:lang="ru">Курганская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="65">
+			<structure:Description xml:lang="ru">Свердловская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="71">
+			<structure:Description xml:lang="ru">Тюменская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="71100">
+			<structure:Description xml:lang="ru">в том числе Ханты-Мансийский автономный округ - Югра</structure:Description>
+		</structure:Code>
+		<structure:Code value="71140">
+			<structure:Description xml:lang="ru">в том числе Ямало-Ненецкий автономный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="71999">
+			<structure:Description xml:lang="ru">Тюменская область без данных по Ханты-Мансийскому автономному округу - Югре и Ямало-Ненецкому автономному округу</structure:Description>
+		</structure:Code>
+		<structure:Code value="75">
+			<structure:Description xml:lang="ru">Челябинская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="035">
+			<structure:Description xml:lang="ru">Сибирский федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="84">
+			<structure:Description xml:lang="ru">Республика Алтай</structure:Description>
+		</structure:Code>
+		<structure:Code value="93">
+			<structure:Description xml:lang="ru">Республика Тыва</structure:Description>
+		</structure:Code>
+		<structure:Code value="95">
+			<structure:Description xml:lang="ru">Республика Хакасия</structure:Description>
+		</structure:Code>
+		<structure:Code value="01">
+			<structure:Description xml:lang="ru">Алтайский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="04">
+			<structure:Description xml:lang="ru">Красноярский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="25">
+			<structure:Description xml:lang="ru">Иркутская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="32">
+			<structure:Description xml:lang="ru">Кемеровская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="50">
+			<structure:Description xml:lang="ru">Новосибирская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="52">
+			<structure:Description xml:lang="ru">Омская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="69">
+			<structure:Description xml:lang="ru">Томская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="036">
+			<structure:Description xml:lang="ru">Дальневосточный федеральный округ</structure:Description>
+		</structure:Code>
+		<structure:Code value="101">
+			<structure:Description xml:lang="ru">Республика Бурятия</structure:Description>
+		</structure:Code>
+		<structure:Code value="98">
+			<structure:Description xml:lang="ru">Республика Саха (Якутия)</structure:Description>
+		</structure:Code>
+		<structure:Code value="102">
+			<structure:Description xml:lang="ru">Забайкальский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="30">
+			<structure:Description xml:lang="ru">Камчатский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="05">
+			<structure:Description xml:lang="ru">Приморский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="08">
+			<structure:Description xml:lang="ru">Хабаровский край</structure:Description>
+		</structure:Code>
+		<structure:Code value="10">
+			<structure:Description xml:lang="ru">Амурская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="44">
+			<structure:Description xml:lang="ru">Магаданская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="64">
+			<structure:Description xml:lang="ru">Сахалинская область</structure:Description>
+		</structure:Code>
+		<structure:Code value="99">
+			<structure:Description xml:lang="ru">Еврейская автономная область</structure:Description>
+		</structure:Code>
+		<structure:Code value="77">
+			<structure:Description xml:lang="ru">Чукотский автономный округ</structure:Description>
+		</structure:Code>
+	</structure:CodeList>
+	<structure:CodeList id="03_024">
+		<structure:Name xml:lang="ru">Характеристики жилищных/ипотечных кредитов</structure:Name>
+		<structure:Code value="1">
+			<structure:Description xml:lang="ru">Количество предоставленных кредитов</structure:Description>
+		</structure:Code>
+		<structure:Code value="2">
+			<structure:Description xml:lang="ru">Объем предоставленных кредитов</structure:Description>
+		</structure:Code>
+		<structure:Code value="3_2">
+			<structure:Description xml:lang="ru">Средневзвешенный срок кредитования по кредитам, выданным в течение месяца</structure:Description>
+		</structure:Code>
+		<structure:Code value="4_2">
+			<structure:Description xml:lang="ru">Средневзвешенная ставка по кредитам, выданным в течение месяца</structure:Description>
+		</structure:Code>
+		<structure:Code value="5">
+			<structure:Description xml:lang="ru">Всего</structure:Description>
+		</structure:Code>
+	</structure:CodeList>
+	<structure:CodeList id="51_0">
+		<structure:Name xml:lang="ru">Характеристики кредита</structure:Name>
+		<structure:Code value="1">
+			<structure:Description xml:lang="ru">Объем предоставленных кредитов</structure:Description>
+		</structure:Code>
+		<structure:Code value="4">
+			<structure:Description xml:lang="ru">Жилищные кредиты</structure:Description>
+		</structure:Code>
+		<structure:Code value="5">
+			<structure:Description xml:lang="ru">Ипотечные жилищные кредиты</structure:Description>
+		</structure:Code>
+		<structure:Code value="12">
+			<structure:Description xml:lang="ru">из них: ипотечные жилищные кредиты, взятые под залог прав требования по договорам участия в долевом строительстве</structure:Description>
+		</structure:Code>
+	</structure:CodeList>
+</CodeLists>
+<Description Id="signObj">
+	<Indicator id="59345" name="Отдельные показатели по кредитам в рублях,  предоставленным  кредитными организациями физическим лицам-резидентам">
+		<Units>
+			<Unit value="месяц"/>
+			<Unit value="миллион рублей"/>
+			<Unit value="процент"/>
+			<Unit value="единица"/>
+		</Units>
+		<Periodicities>
+			<Periodicity value="Месячная - на конец отчетного периода" releases="на 15-й день второго месяца, следующего за отчетным" next-release="16.10.2026"/>
+		</Periodicities>
+		<DataRange start="2018" end="2026"/>
+		<LastUpdate value="2026-08-31T11:13:28"/>
+		<Dimensions>
+			<Dimension value="00_003" agencyID="48">
+				<Name xml:lang="ru">Регионы Российской Федерации (иерархический)</Name>
+			</Dimension>
+			<Dimension value="03_024" agencyID="48">
+				<Name xml:lang="ru">Характеристики жилищных/ипотечных кредитов</Name>
+			</Dimension>
+			<Dimension value="51_0" agencyID="48">
+				<Name xml:lang="ru">Характеристики кредита</Name>
+			</Dimension>
+		</Dimensions>
+		<Methodology value="Сведения о кредитах, в том числе жилищных/ипотечных жилищных, предоставленных кредитными организациями физическим лицам - резидентам Российской Федерации в рублях в разрезе субъектов Российской Федерации. Группировка данных осуществляется исходя из места нахождения заемщиков.  К категории жилищных относятся следующие виды кредитов, предоставленные физическим лицам:  на приобретение и обустройство земли под предстоящее жилищное строительство (земельный кредит); для финансирования строительных работ (строительный кредит);  для приобретения жилья (кредит на приобретение жилья).  К категории ипотечных жилищных кредитов относятся жилищные кредиты, предоставленные физическим лицам под залог недвижимости в порядке, установленном Федеральным законом Об ипотеке (залоге недвижимости).   Характеристика отдельных показателей   Объем предоставленных физическим лицам кредитов, в том числе жилищных/ипотечных жилищных - сумма средств, предоставленных в течение отчетного периода по кредитным договорам (дополнительным соглашениям). Формируется за отчетный период (месяц).  Средневзвешенный срок кредитования по кредитам, выданным в течение отчетного месяца, характеризует средние сроки кредитования по предоставленным кредитными организациями в течение отчетного месяца кредитов, в том числе жилищных/ипотечных жилищных кредитов . Формируется расчетным путем.  Средневзвешенная ставка по кредитам, выданным в течение месяца, характеризует средние процентные ставки по кредитам, в том числе жилищным/ипотечным жилищным кредитам, предоставленным кредитными организациями в течение месяца. Формируется расчетным путем."/>
+		<Organization value="Центральный банк Российской Федерации"/>
+		<Department value="Департамент статистики и управления данными"/>
+		<Allocations>
+			<Allocation id="48.23.">
+				<Name xml:lang="ru">По федеральному плану статработ / Центральный банк Российской Федерации / Информация о кредитах и задолженности по кредитам, выданным заемщикам различных регионов (в рублях и иностранной валюте в рублевом эквиваленте)</Name>
+			</Allocation>
+		</Allocations>
+		<Comment value="Примечание: Статистические данные по Российской Федерации публикуются без учета статистической информации по Донецкой Народной Республике (ДНР), Луганской Народной Республике (ЛНР), Запорожской и Херсонской областям.  Источником информации является отчетность кредитных организаций (включая небанковские кредитные организации, осуществляющие депозитно-кредитные операции) по форме 0409316 «Сведения о кредитах, предоставленных физическим лицам», установленной Указанием Банка России от 08 октября 2018 года №4927-У «О перечне, формах и порядке составления и представления форм отчетности кредитных организаций в Центральный банк Российской Федерации».    Информация размещается на официальном сайте Банка России в разделе «Статистика» и в официальном издании «Статистический бюллетень Банка России».  "/>
+		<Responsible>
+			<Name xml:lang="ru">Гусева К.М.</Name>
+			<Contacts xml:lang="ru">8(495)771-99-99 (доб.1-58-77) gusevakm@cbr.ru</Contacts>
+		</Responsible>
+	</Indicator>
+</Description>
+<DataSet>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="190,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="189,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="193,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="189,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="192"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="193,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="200"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="198,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="196,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="198,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="198,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="200"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="206,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="210,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="212,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="216"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="216,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="216,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="218,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="217,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="216,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="213,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="214,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="217,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="218,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="219,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="221,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="222,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="225"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="227,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="229,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="233,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="237,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="240,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="243,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="244,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="246,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="250,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="254,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="257"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="262,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="264,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="266"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="263"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="271,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="269,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="274,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="277,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="281,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="279,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="283,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="289,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="284,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="287,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="287,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="286,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="288,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="288,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="291"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="294"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="298,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="296,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="299,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="302,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="294,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="292"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="299,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="298,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="303,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="310,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="289,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="298,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="302,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="299,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="302,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="302,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="305,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="309,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="310,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="308,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="308,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="307,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="307,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="307"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="304,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="304,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="309,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="313,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="315,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="285,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="285,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="282"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="283,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="299"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="4"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="280,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="191,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="190"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="193,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="189,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="192,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="193,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="200,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="198,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="196,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="198,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="199"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="200,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="206,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="210,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="212,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="216,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="216,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="216,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="218,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="217,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="216,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="213,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="214,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="217,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="218,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="219,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="221,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="223"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="225,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="227,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="229,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="233,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="237,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="240,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="243,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="244,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="246,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="250,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="254,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="257,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="262,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="264,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="266,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="263,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="272,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="269,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="274,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="277,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="281,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="279,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="283,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="289,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="284,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="287,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="287,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="286,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="288,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="288,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="291,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="294"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="298,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="296,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="299,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="302,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="294,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="292,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="299,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="298,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="303,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="310,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="289,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="298,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="302,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="299,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="302,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="303,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="305,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="309,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="310,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="308,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="308,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="308"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="307,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="307"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="304,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="304,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="309,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="313,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="315,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="285,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="286"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="282,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="284"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="299,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="5"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="280,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="195,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="193,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="195,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="194,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="194,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="195"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="194,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="195,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="195,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="196,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="197,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2018</generic:Time>
+			<generic:ObsValue value="196"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="210,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="212,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="214"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="215,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="216,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="218,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="217,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="219,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="221,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="221,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2019</generic:Time>
+			<generic:ObsValue value="223,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="227,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="228,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="228"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="223,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="213,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="216,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="220,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="221,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="223,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="224"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="225,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2020</generic:Time>
+			<generic:ObsValue value="229"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="232,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="236,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="244,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="247,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="251,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="252,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="251,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="252,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="257,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="261,5"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2021</generic:Time>
+			<generic:ObsValue value="262,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="267,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="270,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="271"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="279,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="291,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="294,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="297,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="302,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="305,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="305,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="306,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2022</generic:Time>
+			<generic:ObsValue value="311,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="308,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="308,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="307,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="304,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="307,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="307,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="308,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="309,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="312,7"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="311,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="313,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2023</generic:Time>
+			<generic:ObsValue value="316"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="312,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="312"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="316,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="314,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="318,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="320,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="314,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="322,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="323,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="323,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="321,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2024</generic:Time>
+			<generic:ObsValue value="322,1"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="321,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="февраль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="323,3"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="март"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="323,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="апрель"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="322,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="май"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="322,6"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июнь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="322,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="июль"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="323,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="август"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="323,8"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="сентябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="322,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="октябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="324,9"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="ноябрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="328,4"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="декабрь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2025</generic:Time>
+			<generic:ObsValue value="329,2"/>
+		</generic:Obs>
+	</generic:Series>
+	<generic:Series>
+		<generic:SeriesKey>
+			<generic:Value concept="00_003" value="00"/>
+			<generic:Value concept="03_024" value="3_2"/>
+			<generic:Value concept="51_0" value="12"/>
+		</generic:SeriesKey>
+		<generic:Attributes>
+			<generic:Value concept="EI" value="месяц"/>
+			<generic:Value concept="PERIOD" value="январь"/>
+		</generic:Attributes>
+		<generic:Obs>
+			<generic:Time>2026</generic:Time>
+			<generic:ObsValue value="329,6"/>
+		</generic:Obs>
+	</generic:Series>
+	</DataSet>
+</GenericData>
