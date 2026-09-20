@@ -35,3 +35,16 @@ def test_wide_default_index_is_other_columns(df):
 def test_missing_column_raises(df):
     with pytest.raises(FedstatError):
         to_wide(df, columns="НетТакого", values="VALUE")
+
+
+def test_warns_when_aggregating_hidden_dims(df):
+    # index="TIME" схлопывает прочие измерения (рынок/типы) -> должно предупредить
+    with pytest.warns(UserWarning, match="агрегированы"):
+        to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
+
+
+def test_no_warning_when_index_covers_all(df, recwarn):
+    # все прочие измерения в index -> ключ уникален -> без предупреждения
+    other = [c for c in df.columns if c not in ("PERIOD", "VALUE")]
+    to_wide(df, columns="PERIOD", values="VALUE", index=other)
+    assert not [w for w in recwarn.list if "агрегированы" in str(w.message)]

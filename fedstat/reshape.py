@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import warnings
 from typing import TYPE_CHECKING, Optional, Union
 
 from .errors import FedstatError
@@ -39,7 +40,24 @@ def to_wide(df: "pd.DataFrame", columns: str = "PERIOD", values: str = "VALUE",
             "Не осталось столбцов для строк (index). Укажите index явно."
         )
 
-    wide = pd.pivot_table(df, index=index, columns=columns, values=values,
+    index_list = [index] if isinstance(index, str) else list(index)
+
+    # Предупредить, если на одну ячейку приходится несколько строк: тогда значения
+    # агрегируются (по умолчанию усредняются) по «спрятанным» полям — частый подвох,
+    # например невзвешенное среднее по всем регионам вместо ряда по одному региону.
+    key = index_list + [columns]
+    n_dup = len(df) - len(df.drop_duplicates(subset=key))
+    if n_dup > 0:
+        dropped = [c for c in df.columns if c not in key + [values]]
+        warnings.warn(
+            f"to_wide: на ячейку (index+columns) приходится несколько строк — "
+            f"значения агрегированы ({aggfunc}) по полям {dropped}. "
+            f"Если это не нужно, добавьте эти поля в index или отфильтруйте данные "
+            f"(например, оставьте один регион).",
+            stacklevel=2,
+        )
+
+    wide = pd.pivot_table(df, index=index_list, columns=columns, values=values,
                           aggfunc=aggfunc)
     wide = wide.reset_index()
     wide.columns.name = None

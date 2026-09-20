@@ -31,39 +31,42 @@ poetry install
 `poetry install` ставит зависимости в локальное окружение проекта — эта команда
 предполагает, что исходники уже склонированы (вариант «для разработки»).
 
-## Пример
-
-Готовый ноутбук: [`notebooks/example.ipynb`](notebooks/example.ipynb).
-
 ## Быстрый старт
 
 ```python
 import fedstat
 
-# 1. Какие фильтры есть у показателя (id — из URL вида /indicator/31452)
-fedstat.list_filters("31452")            # плоский DataFrame: поле | значение | ...
-fedstat.filter_options("31452")          # dict {поле: [уникальные значения]} — обзор за один вызов
+# 1. Посмотреть доступные фильтры показателя (id — из URL вида /indicator/31452)
+fedstat.filter_options("31452")                  # dict {поле: [уникальные значения]}
 fedstat.filter_options("31452", as_frame=True)   # то же таблицей (field, object, n_values, values)
 
-# 2. Шаблон со всеми полями (значения по умолчанию "*" = все)
+# 2. Взять шаблон фильтров и заполнить нужное ("*"/пропуск = все значения)
 f = fedstat.filter_template("31452")
-f["Год"] = "2023"
+f["Год"] = [str(y) for y in range(2017, 2027)]   # можно список
 f["Рынок жилья"] = "Первичный рынок жилья"
+f["Типы квартир"] = "Все типы квартир"
 
 # 3. Скачать нормализованный ("длинный") DataFrame
 df = fedstat.load("31452", filters=f)
 df.to_csv("cena.csv", index=False)
-df.to_excel("cena.xlsx", index=False)
 
 # 4. При желании — "широкий" вид (одно измерение по столбцам)
-wide = fedstat.to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
+fedstat.to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
 ```
 
 Правила фильтров:
 - ключ — заголовок поля, как на сайте (регистр и лишние пробелы игнорируются);
-- значение — строка, список строк или `"*"` (все значения);
-- пропущенное поле = все значения;
-- неверное имя поля/значения -> `FilterError` с подсказкой похожего варианта.
+- значение — строка, список строк или `"*"` (все значения); пропущенное поле = все значения;
+- неверное имя поля/значения -> `FilterError` с подсказкой похожего варианта;
+- пустая комбинация фильтров -> ошибка 302 от fedstat. Частый подвох: для ОКАТО
+  с 2023 г. данные лежат под «Российская Федерация без учёта новых субъектов»,
+  а не под «Российская Федерация».
+
+## Примеры
+
+- [`notebooks/fedstatCheck.ipynb`](notebooks/fedstatCheck.ipynb) — 4 разобранных показателя
+  (цена жилья, индекс цен, безработица, ставки по ипотеке), включая месячные данные.
+- [`notebooks/example.ipynb`](notebooks/example.ipynb) — минимальный пример.
 
 ## Формат вывода
 
@@ -83,34 +86,5 @@ wide = fedstat.to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
 | `fedstat.jsparse` | разбор встроенного JS (порт `parse_js1/parse_js2`) |
 | `fedstat.filters` | отбор строк по фильтрам, шаблон, подсказки |
 | `fedstat.sdmx` | SDMX -> нормализованный `DataFrame` |
-| `fedstat.api` | высокоуровневые `load` / `list_filters` / `filter_template` |
-
-## Публикация (для мейнтейнера)
-
-Новые версии публикуются на PyPI **автоматически по git-тегу** через
-GitHub Actions + Trusted Publishing (OIDC, без токенов).
-
-Однократная настройка на PyPI (https://pypi.org/manage/project/fedstat/settings/publishing/):
-добавить trusted publisher — owner `timryadovouu`, репозиторий `fedstat`,
-workflow `publish.yml`, environment `pypi`.
-
-Выпуск версии:
-
-```bash
-poetry version patch          # 0.1.2 -> 0.1.3 (или minor / major)
-# обновить CHANGELOG.md, закоммитить
-git tag v0.1.3 && git push origin main v0.1.3
-```
-
-Пуш тега запускает `publish.yml`, который собирает пакет и публикует на PyPI.
-
-## Разработка и тесты
-
-Тесты гоняются офлайн на сохранённых фикстурах (`fixtures/`), сеть не нужна:
-
-```bash
-poetry run pytest -q
-```
-
-Снятие новых фикстур с живого сайта — ноутбук `notebooks/capture_fixtures.ipynb`
-(нужен доступ к fedstat.ru).
+| `fedstat.reshape` | `to_wide` — «широкий» вид (pivot) |
+| `fedstat.api` | `load` / `list_filters` / `filter_options` / `filter_template` |

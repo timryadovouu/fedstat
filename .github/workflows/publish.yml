@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
-      id-token: write   # нужно для OIDC (Trusted Publishing)
+      id-token: write    # OIDC для Trusted Publishing на PyPI
+      contents: write    # создание GitHub Release
     steps:
       - uses: actions/checkout@v4
 
@@ -29,3 +30,12 @@ jobs:
 
       - name: Publish to PyPI (Trusted Publishing)
         uses: pypa/gh-action-pypi-publish@release/v1
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            --title "${GITHUB_REF_NAME}" \
+            --notes "Релиз ${GITHUB_REF_NAME}. Изменения — в CHANGELOG.md." \
+            --verify-tag || echo "release already exists"

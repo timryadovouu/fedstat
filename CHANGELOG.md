@@ -4,6 +4,17 @@
 [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/),
 версионирование — [SemVer](https://semver.org/lang/ru/).
 
+## [0.1.4] - 2026-09-21
+### Добавлено
+- `to_wide` предупреждает, когда на ячейку приходится несколько строк и значения
+  усредняются по «спрятанным» полям (частый подвох — среднее по всем регионам).
+### Изменено
+- Обновлён README: реальные примеры, правила фильтров, подсказка про 302/ОКАТО.
+- Пересобран `notebooks/fedstatCheck.ipynb`: 4 разобранных показателя
+  (цена жилья, индекс цен, безработица, месячные ставки по ипотеке) на базе `filter_options`;
+  «широкий» вид считается по одному региону (РФ) + пояснение про усреднение.
+- CI-workflow публикации теперь создаёт и GitHub Release по тегу.
+
 ## [0.1.3] - 2026-09-21
 ### Добавлено
 - `filter_options(indicator_id)` — обзор всех полей-фильтров и их уникальных
@@ -31,6 +42,7 @@
   свежая сессия и прогрев (аналог жёсткого обновления страницы).
 - Понятные ошибки (403/503/302, CSRF, пустая выборка).
 
+[0.1.4]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.4
 [0.1.3]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.3
 [0.1.2]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.2
 [0.1.1]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.1
