@@ -4,6 +4,12 @@
 [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/),
 версионирование — [SemVer](https://semver.org/lang/ru/).
 
+## [0.1.3] - 2026-09-21
+### Добавлено
+- `filter_options(indicator_id)` — обзор всех полей-фильтров и их уникальных
+  значений за один вызов: dict `{поле: [значения]}` или таблица (`as_frame=True`).
+  Заменяет ручную цепочку `list_filters()` + `.unique()` по каждому полю.
+
 ## [0.1.2] - 2026-09-19
 ### Добавлено
 - Маркер `py.typed` и аннотации типов на публичном API — пакет типизирован.
@@ -25,6 +31,7 @@
   свежая сессия и прогрев (аналог жёсткого обновления страницы).
 - Понятные ошибки (403/503/302, CSRF, пустая выборка).
 
+[0.1.3]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.3
 [0.1.2]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.2
 [0.1.1]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.1
 [0.1.0]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.0

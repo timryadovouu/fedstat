@@ -55,6 +55,29 @@ def test_list_filters_and_template(fake_client):
     assert "Год" in tpl and set(tpl.values()) == {"*"}
 
 
+def test_filter_options_dict(fake_client):
+    opts = fedstat.filter_options(INDICATOR, client=fake_client)
+    assert isinstance(opts, dict)
+    # поле -> список уникальных значений
+    assert opts["Типы квартир"] == [
+        "Все типы квартир", "Низкого качества",
+        "Квартиры среднего качества (типовые)", "Улучшенного качества",
+        "Элитные квартиры",
+    ]
+    assert opts["Рынок жилья"] == ["Вторичный рынок жилья", "Первичный рынок жилья"]
+    # значения уникальны
+    for vals in opts.values():
+        assert len(vals) == len(set(vals))
+
+
+def test_filter_options_frame(fake_client):
+    fr = fedstat.filter_options(INDICATOR, client=fake_client, as_frame=True)
+    assert list(fr.columns) == ["field", "object", "n_values", "values"]
+    row = fr[fr["field"] == "Типы квартир"].iloc[0]
+    assert row["n_values"] == 5
+    assert len(row["values"]) == 5
+
+
 def test_load_retries_after_transient_503(fake_client, monkeypatch):
     from fedstat.errors import DownloadError
 

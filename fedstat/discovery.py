@@ -66,6 +66,29 @@ class DataIds:
         """Готовый словарь фильтров {field_title: '*'} для правки пользователем."""
         return {title: "*" for title in self.fields()}
 
+    def options(self):
+        """{field_title: [уникальные значения]} — что можно подставить в каждый фильтр.
+
+        Готовый обзор всех полей и их допустимых значений (JSON-совместимый),
+        чтобы не выбирать поля и значения вручную через .unique().
+        """
+        return {
+            title: list(dict.fromkeys(info["values"]))  # уникальные, с сохранением порядка
+            for title, info in self.fields().items()
+        }
+
+    def options_frame(self):
+        """DataFrame: одна строка на поле — field, object, n_values, values."""
+        import pandas as pd
+
+        rows = [
+            {"field": title, "object": info["object"],
+             "n_values": len(set(info["values"])),
+             "values": list(dict.fromkeys(info["values"]))}
+            for title, info in self.fields().items()
+        ]
+        return pd.DataFrame(rows, columns=["field", "object", "n_values", "values"])
+
 
 def _find_data_script(doc):
     for node in doc.xpath(".//script"):

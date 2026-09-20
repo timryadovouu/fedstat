@@ -8,7 +8,13 @@
     df = fedstat.load("31452", filters=f)  # нормализованный DataFrame
 """
 
-from .api import filter_template, get_data_ids, list_filters, load
+from .api import (
+    filter_options,
+    filter_template,
+    get_data_ids,
+    list_filters,
+    load,
+)
 from .client import FedstatClient
 from .discovery import DataIds, parse_indicator_page
 from .errors import (
@@ -28,6 +34,7 @@ __all__ = [
     "load",
     "list_filters",
     "filter_template",
+    "filter_options",
     "get_data_ids",
     "to_wide",
     "FedstatClient",

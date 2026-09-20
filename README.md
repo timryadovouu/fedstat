@@ -41,7 +41,9 @@ poetry install
 import fedstat
 
 # 1. Какие фильтры есть у показателя (id — из URL вида /indicator/31452)
-fedstat.list_filters("31452")            # DataFrame: поле -> допустимые значения
+fedstat.list_filters("31452")            # плоский DataFrame: поле | значение | ...
+fedstat.filter_options("31452")          # dict {поле: [уникальные значения]} — обзор за один вызов
+fedstat.filter_options("31452", as_frame=True)   # то же таблицей (field, object, n_values, values)
 
 # 2. Шаблон со всеми полями (значения по умолчанию "*" = все)
 f = fedstat.filter_template("31452")

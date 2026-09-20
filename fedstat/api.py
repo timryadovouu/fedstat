@@ -41,6 +41,19 @@ def filter_template(indicator_id: Union[str, int], *,
     return get_data_ids(indicator_id, client=client).template()
 
 
+def filter_options(indicator_id: Union[str, int], *,
+                   client: Optional[FedstatClient] = None, as_frame: bool = False):
+    """Обзор всех полей-фильтров и их уникальных значений за один вызов.
+
+    as_frame=False (по умолчанию) -> dict {field_title: [значения]} (JSON-совместимо);
+    as_frame=True -> DataFrame со строкой на поле (field, object, n_values, values).
+
+    Заменяет ручную цепочку list_filters() + .unique() по каждому полю.
+    """
+    di = get_data_ids(indicator_id, client=client)
+    return di.options_frame() if as_frame else di.options()
+
+
 def load(indicator_id: Union[str, int], filters: Optional[Filters] = None, *,
          client: Optional[FedstatClient] = None, retry_max_times: int = 3,
          retry_pause: float = 3.0, try_numeric: bool = True,
