@@ -1,9 +1,9 @@
 # fedstat
 
-![tests](https://github.com/timryadovouu/fedstat/actions/workflows/tests.yml/badge.svg)
-![PyPI](https://img.shields.io/pypi/v/fedstat)
-![Python](https://img.shields.io/pypi/pyversions/fedstat)
-![License](https://img.shields.io/pypi/l/fedstat)
+[![tests](https://github.com/timryadovouu/fedstat/actions/workflows/tests.yml/badge.svg)](https://github.com/timryadovouu/fedstat/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/fedstat)](https://pypi.org/project/fedstat/)
+[![Python](https://img.shields.io/pypi/pyversions/fedstat)](https://pypi.org/project/fedstat/)
+[![License](https://img.shields.io/pypi/l/fedstat)](https://github.com/timryadovouu/fedstat/blob/main/LICENSE)
 
 Неофициальный Python-клиент к [fedstat.ru](https://www.fedstat.ru) (ЕМИСС) —
 порт идей R-пакета [`fedstatAPIr`](https://github.com/DenchPokepon/fedstatAPIr).
@@ -35,6 +35,12 @@ poetry install
 
 ```python
 import fedstat
+
+# 0. Найти показатель по названию (поиск по каталогу всех индикаторов fedstat)
+# Поиск по ПОДСТРОКЕ без морфологии — ищите по основе слова (в названиях разные падежи):
+fedstat.find("ипотеч")                   # DataFrame: id | title | department | hidden
+fedstat.find("безработиц")               # несколько слов = И (все должны встретиться)
+fedstat.catalog()                        # весь каталог индикаторов
 
 # 1. Посмотреть доступные фильтры показателя (id — из URL вида /indicator/31452)
 fedstat.filter_options("31452")                  # dict {поле: [уникальные значения]}
@@ -87,4 +93,5 @@ fedstat.to_wide(df, columns="PERIOD", values="VALUE", index="TIME")
 | `fedstat.filters` | отбор строк по фильтрам, шаблон, подсказки |
 | `fedstat.sdmx` | SDMX -> нормализованный `DataFrame` |
 | `fedstat.reshape` | `to_wide` — «широкий» вид (pivot) |
+| `fedstat.catalog` | `find` / `catalog` — поиск индикатора по названию (каталог всех показателей) |
 | `fedstat.api` | `load` / `list_filters` / `filter_options` / `filter_template` |

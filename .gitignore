@@ -25,3 +25,6 @@ build/
 .DS_Store
 .ipynb_checkpoints/
 fixtures/*_meta.json
+
+test.ipynb
+fixtures/organizations.html

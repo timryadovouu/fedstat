@@ -15,6 +15,7 @@ from .api import (
     list_filters,
     load,
 )
+from .catalog import catalog, fetch_indicators, find, parse_organizations
 from .client import FedstatClient
 from .discovery import DataIds, parse_indicator_page
 from .errors import (
@@ -37,6 +38,10 @@ __all__ = [
     "filter_options",
     "get_data_ids",
     "to_wide",
+    "catalog",
+    "find",
+    "fetch_indicators",
+    "parse_organizations",
     "FedstatClient",
     "DataIds",
     "parse_indicator_page",

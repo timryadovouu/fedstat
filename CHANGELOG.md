@@ -4,6 +4,18 @@
 [Keep a Changelog](https://keepachangelog.com/ru/1.1.0/),
 версионирование — [SemVer](https://semver.org/lang/ru/).
 
+## [0.1.5] - 2026-09-21
+### Добавлено
+- Каталог всех индикаторов fedstat: `find("название")` — поиск показателя по названию
+  (id | title | department | hidden), `catalog()` — весь каталог. База (~8.7 тыс.
+  индикаторов) поставляется с пакетом; мейнтейнер обновляет её через `refresh_catalog()`.
+- `parse_organizations()` / `fetch_indicators()` — разбор/загрузка списка индикаторов.
+- Поиск `find`: несколько слов трактуются как И; поиск по подстроке без морфологии
+  (искать по основе слова, напр. `find("ипотеч")`).
+### Изменено
+- Бейджи в README сделаны кликабельными (ведут на Actions / PyPI / LICENSE).
+- Удалён `test.ipynb` из репозитория.
+
 ## [0.1.4] - 2026-09-21
 ### Добавлено
 - `to_wide` предупреждает, когда на ячейку приходится несколько строк и значения
@@ -42,6 +54,7 @@
   свежая сессия и прогрев (аналог жёсткого обновления страницы).
 - Понятные ошибки (403/503/302, CSRF, пустая выборка).
 
+[0.1.5]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.5
 [0.1.4]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.4
 [0.1.3]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.3
 [0.1.2]: https://github.com/timryadovouu/fedstat/releases/tag/v0.1.2
